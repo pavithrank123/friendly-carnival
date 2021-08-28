@@ -22,8 +22,6 @@ const RepaymentItem = (props) => {
 const styles = StyleSheet.create({
     card : {
       flex: 1,
-      borderRadius: 5,
-      elevation: 10,
       marginTop: 10 ,
       marginRight: 10,
       marginVertical: 5,

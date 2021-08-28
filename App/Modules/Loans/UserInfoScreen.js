@@ -120,7 +120,7 @@ const UserInfoScreen = props => {
 
   return (
 
-    <View style={{backgroundColor: AppColors.mediumGreyVariant1}}>
+    <View style={{backgroundColor: AppColors.mediumGreyVariant1, marginBottom: '10%'}}>
       <ActionBarContainer
         titleName={title}
         hideBackIcon={true}
@@ -205,7 +205,6 @@ const styles = StyleSheet.create({
   cardStyle: {
     borderRadius: 2,
     padding: 10,
-    width: '100%',
     marginTop: 10,
     marginHorizontal: 5,
     backgroundColor: AppColors.white

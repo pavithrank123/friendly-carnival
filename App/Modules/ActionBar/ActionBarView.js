@@ -14,9 +14,6 @@ const ActionBarView = props => {
 
   return (
     <View style={styles.headerContainer}>
-      <TouchableOpacity onPress={onBackButtonClick}>
-        {!hideBackIcon && <Image source={backIconImage} style={styles.backButton} />}
-      </TouchableOpacity>
       <Text style={[styles.headerText,{color:textColorTheme}]}>{actionBarTitle}</Text>
       {!hideBackIcon && <View style={styles.endLayout} />}
     </View>
